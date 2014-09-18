@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox8"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox8"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox3"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox3"
+        android:layout_above="@+id/hexTest5CheckBox8"
+        android:layout_alignLeft="@+id/hexTest5CheckBox8"
+        android:layout_alignStart="@+id/hexTest5CheckBox8" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox13"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox13"
+        android:layout_below="@+id/hexTest5CheckBox8"
+        android:layout_alignLeft="@+id/hexTest5CheckBox8"
+        android:layout_alignStart="@+id/hexTest5CheckBox8" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox2"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox2"
+        android:layout_alignTop="@+id/hexTest5CheckBox3"
+        android:layout_toLeftOf="@+id/hexTest5CheckBox8" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox7"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox7"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/hexTest5CheckBox2"
+        android:layout_alignStart="@+id/hexTest5CheckBox2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox12"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox12"
+        android:layout_below="@+id/hexTest5CheckBox8"
+        android:layout_alignLeft="@+id/hexTest5CheckBox7"
+        android:layout_alignStart="@+id/hexTest5CheckBox7" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox4"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox4"
+        android:layout_alignTop="@+id/hexTest5CheckBox3"
+        android:layout_toRightOf="@+id/hexTest5CheckBox8" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox9"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox9"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/hexTest5CheckBox8" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox14"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox14"
+        android:layout_alignTop="@+id/hexTest5CheckBox13"
+        android:layout_toRightOf="@+id/hexTest5CheckBox13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test3"
+        android:textColor="#00FF0D"
+        android:textStyle="bold"
+        android:padding="30dp"
+        android:textSize="45sp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/hexTest5CheckBox3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_submit_button"
+        android:padding="10dp"
+        android:textSize="50sp"
+        android:textColor="#00FF0D"
+        android:id="@+id/hex_test5_submit_button"
+        android:layout_below="@+id/hexText5KeyResult"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hexText5KeyResult"
+        android:textColor="#FF0000"
+        android:text="@string/message"
+        android:textSize="30sp"
+        android:padding="30dp"
+        android:layout_below="@+id/hexTest5CheckBox13"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox6"
+        android:id="@+id/hexTest5CheckBox6"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/hexTest5CheckBox7" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox1"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest5CheckBox1"
+        android:layout_above="@+id/hexTest5CheckBox6"
+        android:layout_toLeftOf="@+id/hexTest5CheckBox2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox11"
+        android:id="@+id/hexTest5CheckBox11"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/hexTest5CheckBox12"
+        android:layout_alignRight="@+id/hexTest5CheckBox6"
+        android:layout_alignEnd="@+id/hexTest5CheckBox6" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox10"
+        android:id="@+id/hexTest5CheckBox10"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/hexTest5CheckBox9" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox5"
+        android:id="@+id/hexTest5CheckBox5"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/hexTest5CheckBox4"
+        android:layout_toRightOf="@+id/hexTest5CheckBox4" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_checkbox15"
+        android:id="@+id/hexTest5CheckBox15"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/hexTest5CheckBox14"
+        android:layout_alignLeft="@+id/hexTest5CheckBox10"
+        android:layout_alignStart="@+id/hexTest5CheckBox10" />
+
+</RelativeLayout>

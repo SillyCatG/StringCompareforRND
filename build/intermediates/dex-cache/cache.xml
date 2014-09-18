@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-996006a67787818bbddd6752891561ac2d6e1da4.jar"
+        jar="C:\Users\Garfield_2\AppData\Local\Android\android-studio2\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\build\intermediates\pre-dexed\debug\core-2.2-javadoc-0a1ca10d5b52acc25c6f8ec7a7370e44d5fe5d03.jar"
+        jar="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\libs\core-2.2-javadoc.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="de7d4de96d593a227b9dd5dc4094eeb17b40b8ea"/>
+    <item
+        dex="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\build\intermediates\pre-dexed\debug\classes-951cec3b4d60290f20f6528f0706f6bb2893f5c8.jar"
+        jar="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\build\intermediates\pre-dexed\debug\classes-0ac22e10b7f4f02c82c1ebce3bab15fa78c55cbf.jar"
+        jar="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-ce75e262f0cafde568ff8bff25391581b73436de.jar"
+        jar="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2-1cd8061c555bb0a9ee2214e67fddb91d877e2e62.jar"
+        jar="C:\Users\Garfield_2\AndroidStudioProjects\StringCompareforRND\String compare\libs\universal-image-loader-1.9.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9e025bc5b84968e7d6ac765e660a70b3e5a87432"/>
+
+</pre-dex-items>

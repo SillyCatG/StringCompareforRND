@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:id="@+id/hexTest3RadioGroup">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_button_1"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:textColor="#00FF0D"
+        android:id="@+id/hexTest3RadioButton1" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_button_2"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:id="@+id/hexTest3RadioButton2"
+        android:textColor="#00FF0D" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_button_3"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:id="@+id/hexTest3RadioButton3"
+        android:textColor="#00FF0D" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_button_4"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:id="@+id/hexTest3RadioButton4"
+        android:textColor="#00FF0D" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_button_5"
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:textColor="#00FF0D"
+        android:id="@+id/hexTest3RadioButton5" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test2"
+        android:textColor="#00FF0D"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/hexTest3RadioGroup"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:textColor="#00FF0D"
+        android:padding="10dp"
+        android:textSize="50sp"
+        android:id="@+id/hexTest3SubmitBtn"
+        android:layout_below="@+id/hexTest3RadioGroup"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

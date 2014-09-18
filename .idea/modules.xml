@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/String compare/String compare.iml" filepath="$PROJECT_DIR$/String compare/String compare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringCompareforRND.iml" filepath="$PROJECT_DIR$/StringCompareforRND.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="850dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hexTest1ET"
+        android:background="#FFFFFF"
+        android:hint="@string/test1_hint"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test1"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:padding="30dp"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/hexTest1ET"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:textColor="#00FF0D"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:id="@+id/hexTest1SubmitBtn"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text=""
+        android:id="@+id/textView"
+        android:layout_below="@+id/hexTest1ET"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

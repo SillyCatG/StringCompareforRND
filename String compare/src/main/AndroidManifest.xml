@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stringcompareforrnd.stringcompare" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="Menu"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".SubMenuActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/ListFont"/>
+        <activity
+            android:name=".Test1Activity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".Test2Activity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".HexTest4Activity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Test3Activity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Test3bActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Test4Activity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Test5Activity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".WavatarsTest1"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".WavatarsTest2"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".WavatarsTest3"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".WavatarsTest4"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/ListFont"/>
+        <activity
+            android:name=".QRcodeTest1Activity"
+            android:screenOrientation="landscape"/>
+    </application>
+
+</manifest>

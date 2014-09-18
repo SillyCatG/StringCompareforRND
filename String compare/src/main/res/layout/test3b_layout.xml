@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox11"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox11"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox4"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox4"
+        android:layout_above="@+id/hexTest6CheckBox11"
+        android:layout_alignLeft="@+id/hexTest6CheckBox11"
+        android:layout_alignStart="@+id/hexTest6CheckBox11" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox18"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox18"
+        android:layout_below="@+id/hexTest6CheckBox11"
+        android:layout_alignLeft="@+id/hexTest6CheckBox11"
+        android:layout_alignStart="@+id/hexTest6CheckBox11" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox3"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox3"
+        android:layout_alignTop="@+id/hexTest6CheckBox4"
+        android:layout_toLeftOf="@+id/hexTest6CheckBox11" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox10"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox10"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/hexTest6CheckBox3"
+        android:layout_alignStart="@+id/hexTest6CheckBox3" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox17"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox17"
+        android:layout_below="@+id/hexTest6CheckBox11"
+        android:layout_alignLeft="@+id/hexTest6CheckBox10"
+        android:layout_alignStart="@+id/hexTest6CheckBox10" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox5"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox5"
+        android:layout_above="@+id/hexTest6CheckBox11"
+        android:layout_toRightOf="@+id/hexTest6CheckBox11" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox12"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox12"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/hexTest6CheckBox11" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox19"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox19"
+        android:layout_below="@+id/hexTest6CheckBox11"
+        android:layout_toRightOf="@+id/hexTest6CheckBox11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test3"
+        android:textColor="#00FF0D"
+        android:textStyle="bold"
+        android:padding="30dp"
+        android:textSize="45sp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/hexTest6CheckBox4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test5_submit_button"
+        android:padding="10dp"
+        android:textSize="50sp"
+        android:textColor="#00FF0D"
+        android:id="@+id/hex_test6_submit_button"
+        android:layout_below="@+id/hexText6KeyResult"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hexText6KeyResult"
+        android:textColor="#FF0000"
+        android:text="@string/message"
+        android:textSize="30sp"
+        android:padding="30dp"
+        android:layout_below="@+id/hexTest6CheckBox18"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox9"
+        android:id="@+id/hexTest6CheckBox9"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/hexTest6CheckBox10" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox2"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:id="@+id/hexTest6CheckBox2"
+        android:layout_above="@+id/hexTest6CheckBox9"
+        android:layout_toLeftOf="@+id/hexTest6CheckBox3" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox16"
+        android:id="@+id/hexTest6CheckBox16"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/hexTest6CheckBox17"
+        android:layout_alignRight="@+id/hexTest6CheckBox9"
+        android:layout_alignEnd="@+id/hexTest6CheckBox9" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox13"
+        android:id="@+id/hexTest6CheckBox13"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/hexTest6CheckBox12" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox6"
+        android:id="@+id/hexTest6CheckBox6"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_above="@+id/hexTest6CheckBox12"
+        android:layout_toRightOf="@+id/hexTest6CheckBox12" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox20"
+        android:id="@+id/hexTest6CheckBox20"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/hexTest6CheckBox19"
+        android:layout_alignLeft="@+id/hexTest6CheckBox13"
+        android:layout_alignStart="@+id/hexTest6CheckBox13" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox8"
+        android:id="@+id/hexTest6CheckBox8"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/hexTest6CheckBox9" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox1"
+        android:id="@+id/hexTest6CheckBox1"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_above="@+id/hexTest6CheckBox9"
+        android:layout_toLeftOf="@+id/hexTest6CheckBox9" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox15"
+        android:id="@+id/hexTest6CheckBox15"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_below="@+id/hexTest6CheckBox9"
+        android:layout_toLeftOf="@+id/hexTest6CheckBox9" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox14"
+        android:id="@+id/hexTest6CheckBox14"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/hexTest6CheckBox13" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox7"
+        android:id="@+id/hexTest6CheckBox7"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_alignBottom="@+id/hexTest6CheckBox6"
+        android:layout_toRightOf="@+id/hexTest6CheckBox13" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hex_test6_checkbox21"
+        android:id="@+id/hexTest6CheckBox21"
+        android:textColor="#00FF0D"
+        android:textSize="50sp"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/hexTest6CheckBox20"
+        android:layout_toRightOf="@+id/hexTest6CheckBox13" />
+
+</RelativeLayout>
